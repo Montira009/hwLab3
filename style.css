@@ -1,0 +1,35 @@
+p {
+  background-color: grey;
+  color: #ddf;
+  padding: 15px;
+}
+ul {
+  background-color: grey;
+}
+li {
+  color: #ddf;
+}
+#small-circle {
+  background-color: #4CAF50;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+#big-circle {
+  background-color: #4CAF50;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+}
+#small-circle {
+  background-color: #4CAF50;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+#big-circle {
+  background-color: #4CAF50;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+}

@@ -1,0 +1,38 @@
+@background-color: grey;
+@text-color: #ddf;
+
+p{
+  background-color: @background-color;
+  color: @text-color;
+  padding: 15px;
+}
+ul{  background-color: @background-color;}
+li{  color: @text-color;}
+#circle(@size: 50px){
+  background-color: #4CAF50;
+  border-radius: 100%;
+
+  width: @size;
+  height: @size;
+}
+
+#small-circle{
+  #circle
+}
+
+#big-circle{
+  #circle(100px)
+}
+
+#small-circle {
+ background-color: #4CAF50;
+ border-radius: 100%;
+ width: 50px;
+ height: 50px;
+}
+#big-circle {
+ background-color: #4CAF50;
+ border-radius: 100%;
+ width: 100px;
+ height: 100px;
+}
